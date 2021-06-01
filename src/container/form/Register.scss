@@ -1,0 +1,253 @@
+.fatherRegister{
+    height: 38em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #839788;
+
+        @media (min-width:768px){
+            height: 46em
+        }
+
+        @media (min-width:1024px){
+            height: 55em
+            
+        }
+    
+        .cntRegister{
+            width: 19em;
+            height: 32em;
+            //border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            box-shadow: 5px 5px;
+            background: #77A6B6;
+
+            @media (min-width:768px){
+                width: 35em;
+                height: 40em;
+            }
+    
+            @media (min-width:1024px){
+                width: 40em;
+                height: 44em;
+                
+            }
+        
+                .headerRgtr{
+                    display: contents;
+                    height: 4em;
+                    width: 19em;
+
+                        @media (min-width:768px){
+                            height: 5em;
+                        }
+                
+                        @media (min-width:1024px){
+                            height: 6em;
+                            
+                        }
+
+                        .ttlRgtr{
+                            font-size: 1.5em;
+                            font-family: 'Bitter', serif;
+                        
+                            @media (min-width:768px){
+                                font-size: 2em;
+                            }
+                    
+                            @media (min-width:1024px){
+                                font-size: 3em;
+                            }
+                        }
+                }
+
+                .mainRgtr{
+                    height: 20em;
+                    width: 11em;
+
+                        @media (min-width:768px){
+                            height: 24em;
+                            width: 18em;
+                        }
+                
+                        @media (min-width:1024px){
+                            height: 28em;
+                            width: 25em;
+                            
+                        }
+
+                        .cntDates{
+                            background: unset;
+
+                            .nameRgtr{
+                                font-size: 1.2em;
+   
+                               @media (min-width:768px){
+                                   font-size: 1.5em;
+                               }
+                       
+                               @media (min-width:1024px){
+                                   font-size: 2em;
+                                   
+                               }
+                            }
+   
+                            .impN {
+                                width: 11em;
+   
+                               @media (min-width:768px){
+                                   width: 18em;
+                               }
+                       
+                               @media (min-width:1024px){
+                                   width: 25em;
+                               }
+   
+                            }
+                            .lastNameRgtr{
+                                font-size: 1.2em;
+   
+                               @media (min-width:768px){
+                                   font-size: 1.5em;
+                               }
+                       
+                               @media (min-width:1024px){
+                                   font-size: 2em;
+                                   
+                               }
+                            }
+   
+                            .impLN {
+                                width: 11em;
+   
+                               @media (min-width:768px){
+                                   width: 18em;
+                               }
+                       
+                               @media (min-width:1024px){
+                                    width: 25em;
+                               }
+   
+                            }
+
+                            .emailRgtr{
+                                font-size: 1.2em;
+   
+                               @media (min-width:768px){
+                                   font-size: 1.5em;
+                               }
+                       
+                               @media (min-width:1024px){
+                                   font-size: 2em;
+                                   
+                               }
+                            }
+   
+                            .impE {
+                                width: 11em;
+   
+                               @media (min-width:768px){
+                                   width: 18em;
+                               }
+                       
+                               @media (min-width:1024px){
+                                    width: 25em;
+                               }
+   
+                            }
+
+                            .dateOfBirthRgtr{
+                                font-size: 1.2em;
+   
+                               @media (min-width:768px){
+                                   font-size: 1.5em;
+                               }
+                       
+                               @media (min-width:1024px){
+                                   font-size: 2em;
+                                   
+                               }
+                            }
+   
+                            .impDB {
+                                width: 11em;
+   
+                               @media (min-width:768px){
+                                   width: 18em;
+                               }
+                       
+                               @media (min-width:1024px){
+                                    width: 25em;    
+                               }
+   
+                            }
+
+                            .passwordRgtr{
+                                font-size: 1.2em;
+   
+                               @media (min-width:768px){
+                                   font-size: 1.5em;
+                               }
+                       
+                               @media (min-width:1024px){
+                                   font-size: 2em;
+                                   
+                               }
+                            }
+   
+                            .impP {
+                                width: 11em;
+   
+                               @media (min-width:768px){
+                                   width: 18em;
+                               }
+                       
+                               @media (min-width:1024px){
+                                    width: 25em;
+                               }
+   
+                            }
+                            
+                        }
+                }
+
+                .footerRgtr{
+                    height: 8em;
+                    width: 19em;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                        @media (min-width:768px){
+                            height: 5em
+                        }
+                
+                        @media (min-width:1024px){
+                            height: 12em;
+
+                        }
+
+                        .btnRgtr{
+                            background-color:teal;
+                            border-radius: 5px;
+                        
+                        
+                            @media (min-width:768px){
+                                transform: scale(1.2);
+                            }
+                    
+                            @media (min-width:1024px){
+                                transform: scale(1.5);
+                                
+                            }
+                        
+                        }
+                }
+        }
+}

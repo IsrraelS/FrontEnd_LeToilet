@@ -1,0 +1,63 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+        .cntFooter{
+            width: 100%;
+            height: 14em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #468189; 
+            
+                @media (min-width:768px) {
+                    height: 15em;
+                }
+
+                @media (min-width:1024px) {
+                    height: 20em;
+                }
+
+        }
+        
+        .boxIcons{
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+        
+            .icon1{
+                padding:5px;
+                margin-top: 2px;
+                
+            }
+
+            i {
+                color:white;
+            }
+            
+            i:hover {
+                color:#dff8eb;
+                transform: scale(1.6);
+            }
+
+        }
+        .boxDR{
+            margin: 0px;
+            padding: 5px;
+        }
+        
+        .h4{
+            text-align: center;
+            color: white;
+        }
+        .reserved {
+            text-align: center;
+            color: white;
+        }
+}
+

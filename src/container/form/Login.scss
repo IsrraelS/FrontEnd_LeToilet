@@ -1,0 +1,198 @@
+.error{
+    font-weight: bolder;
+    color: red;
+}
+
+.fatherLogin{
+    height: 34em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #839788;
+    box-shadow: 5px 5px gray;
+
+        @media (min-width:768px){
+            height: 36em;
+        }
+
+        @media (min-width:1024px){
+            height: 40em;
+        }
+        .cntLogin{
+            width: 19em;
+            height: 22em;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            box-shadow: 5px 5px;
+            background: #77A6B6;
+
+
+                @media (min-width:768px){
+                    width: 22em;
+                    height: 30em;
+                }
+        
+                @media (min-width:1024px){
+                    width: 38em;
+                    height: 32em;
+                }
+
+            .headerLgn{
+                text-align: center;
+
+
+                    .ttlLogin{
+                        font-size: 2em;
+                        font-family: 'Bitter', serif;
+                        margin: 0;
+
+                        @media (min-width:768px){
+                            font-size: 3em;
+                        }
+                
+                        @media (min-width:1024px){
+                            font-size: 4em;
+                            
+                        }
+
+                    }
+            }
+
+            .mainLgn{
+                height: 11em;
+                width: 11em;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                //padding-top: 0.5em;
+
+                    @media (min-width:768px){
+                        height: 12em;
+                        width: 14em;
+
+                    }
+            
+                    @media (min-width:1024px){
+                        height: 15em;
+                        width: 18em;
+                    }
+
+                    .cntDates{
+                        background: unset;
+
+                         .emailLgn {
+                             font-size: 1em;
+
+                            @media (min-width:768px){
+                                font-size: 1.2em;
+                            }
+                    
+                            @media (min-width:1024px){
+                                font-size: 1.5em;
+                                
+                            }
+                         }
+
+                         .iptEmL {
+                             width: 11em;
+
+                            @media (min-width:768px){
+                                width: 14em;
+                            }
+                    
+                            @media (min-width:1024px){
+                                width: 18em;
+                            }
+
+                         }
+
+                         .passwordLgn {
+                            font-size: 1em;
+
+                           @media (min-width:768px){
+                               font-size: 1.2em;
+                           
+                            }
+                   
+                           @media (min-width:1024px){
+                                font-size: 1.5em;
+                               
+                           }
+                        }
+
+                        .iptPwL {
+                            width: 11em;
+
+                           @media (min-width:768px){
+                               width: 14em;
+
+                           }
+                   
+                           @media (min-width:1024px){
+                                width: 18em;
+                               
+                           }
+                           
+                        }
+
+                    }
+            }
+
+            .footerLgn{
+                height: 6em;
+                width: 19em;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+
+                    @media (min-width:768px){
+                        height: 8em;
+                    }
+            
+                    @media (min-width:1024px){
+                        height: 10em;
+                        
+                    }
+                    
+                    .btnSubmit{
+                        background-color:teal;
+                        border-radius: 5px;
+                    
+                    
+                        @media (min-width:768px){
+                            transform: scale(1.2);
+                        }
+                
+                        @media (min-width:1024px){
+                            transform: scale(1.5);
+                            
+                        }
+                    
+                    }
+
+                    .txtRgtr{
+                        font-size: 14px;
+                        
+                        @media (min-width:768px){
+                            font-size: 18px;
+                        }
+                
+                        @media (min-width:1024px){
+                            font-size: 27px;
+                            width: 16em;
+                            
+                        }
+                    
+                    }
+
+            }
+        
+        }
+
+}
