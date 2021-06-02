@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 
 
-function Carousel(){
+export function Carousel(){
 
     return(
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -29,5 +29,3 @@ function Carousel(){
         </div>
     )
 }
-
-export default Carousel;

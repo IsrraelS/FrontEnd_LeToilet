@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.scss'
 import 'bootstrap/dist/css/bootstrap.css'
-import Carousel from '../../components/carousel/Carousel'
+import { Carousel } from '../../components/carousel/Carousel'
 
 export function Home(){
 

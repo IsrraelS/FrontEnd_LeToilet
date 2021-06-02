@@ -1,0 +1,36 @@
+.cntMaps{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    height: 45em;
+    background-color:#839788;
+
+    .boxMaps{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:40em;
+        height:30em;
+        border:0.5px solid black;
+        }
+    
+    .headerMps{
+        height:4em;
+        text-align:center;
+    }
+
+    .mainMps{
+        height:20em;
+        width:40em;
+        border:0.5px solid black;
+
+    }
+
+    .footerMps{
+        height:4em;
+        text-align:center;
+
+    }
+    
+}

@@ -18,7 +18,7 @@
         .cntRegister{
             width: 19em;
             height: 32em;
-            //border: 1px solid black;
+            border: 1px solid black;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -85,14 +85,14 @@
                             background: unset;
 
                             .nameRgtr{
-                                font-size: 1.2em;
+                                font-size: 1em;
    
                                @media (min-width:768px){
-                                   font-size: 1.5em;
+                                   font-size: 1.2em;
                                }
                        
                                @media (min-width:1024px){
-                                   font-size: 2em;
+                                   font-size: 1.5em;
                                    
                                }
                             }
@@ -110,14 +110,14 @@
    
                             }
                             .lastNameRgtr{
-                                font-size: 1.2em;
+                                font-size: 1em;
    
                                @media (min-width:768px){
-                                   font-size: 1.5em;
+                                   font-size: 1.2em;
                                }
                        
                                @media (min-width:1024px){
-                                   font-size: 2em;
+                                   font-size: 1.5em;
                                    
                                }
                             }
@@ -136,14 +136,14 @@
                             }
 
                             .emailRgtr{
-                                font-size: 1.2em;
+                                font-size: 1em;
    
                                @media (min-width:768px){
-                                   font-size: 1.5em;
+                                   font-size: 1.2em;
                                }
                        
                                @media (min-width:1024px){
-                                   font-size: 2em;
+                                   font-size: 1.5em;
                                    
                                }
                             }
@@ -162,14 +162,14 @@
                             }
 
                             .dateOfBirthRgtr{
-                                font-size: 1.2em;
+                                font-size: 1em;
    
                                @media (min-width:768px){
-                                   font-size: 1.5em;
+                                   font-size: 1.2em;
                                }
                        
                                @media (min-width:1024px){
-                                   font-size: 2em;
+                                   font-size: 1.5em;
                                    
                                }
                             }
@@ -188,14 +188,14 @@
                             }
 
                             .passwordRgtr{
-                                font-size: 1.2em;
+                                font-size: 1em;
    
                                @media (min-width:768px){
-                                   font-size: 1.5em;
+                                   font-size: 1.2em;
                                }
                        
                                @media (min-width:1024px){
-                                   font-size: 2em;
+                                   font-size: 1.5em;
                                    
                                }
                             }
@@ -234,7 +234,7 @@
                         }
 
                         .btnRgtr{
-                            background-color:teal;
+                            background-color:#85BDBF;
                             border-radius: 5px;
                         
                         

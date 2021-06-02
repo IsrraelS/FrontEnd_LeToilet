@@ -4,7 +4,8 @@ import { Home } from './container/home/Home';
 import { Header } from './components/header/Header';
 import { Footer } from './components/footer/Footer';
 import { Register } from './container/form/Register';
-import { Login } from './container/form/Login'
+import { Login } from './container/form/Login';
+import { CntMaps }  from './container/cntMaps/CntMaps'
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
           </Route>
           <Route path="/login">
             <Login></Login>
+          </Route>
+          <Route path="/maps">
+            <Header></Header>
+            <CntMaps></CntMaps>
           </Route>
         </Switch>
         <Footer></Footer>

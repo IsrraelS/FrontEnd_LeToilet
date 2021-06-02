@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.scss';
+import iconTP2 from "./iconTP2.png";
 import { Link } from "react-router-dom";
 
 export function Header(){
@@ -13,7 +14,7 @@ export function Header(){
                             <div className="container-fluid">
                                 <Link className="navbar-brand" to="./">
                                     <div className="boxIcon">
-                                        <img className="icon" ></img>
+                                        <img className="iconTP2" src={ iconTP2 }></img>
                                     </div>
                                 </Link>
                                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

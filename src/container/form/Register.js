@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 export function Register(){
 
+
     return(
         <form>
             <div className="fatherRegister">
@@ -42,7 +43,7 @@ export function Register(){
                             <button className="btnRgtr" type='Submit'>Register</button>
                         </div>
                         <div className="txtRgtr">
-                            <p>Ya estas aun registrado? Pulsa <Link className="redirecRgtr" to="/login">Aqui</Link></p>
+                            <p>Ya estas registrado? Pulsa <Link className="redirecRgtr" to="/login">Aqui</Link></p>
                         </div>
                     </div>
                 </div>
