@@ -3,6 +3,8 @@ const urlLocal = `http://localhost:3000`;
 
 const mapAcces = {
 
+    
+
     registerMarkers : async (lat, lng, id) => {
         try {
             let response = await fetch(`${urlLocal}/markers`, 
