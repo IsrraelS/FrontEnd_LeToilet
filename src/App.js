@@ -22,7 +22,7 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
-          <Route path="/maps">
+          <Route path="/map">
             <Header></Header>
             <CntMaps></CntMaps>
           </Route>

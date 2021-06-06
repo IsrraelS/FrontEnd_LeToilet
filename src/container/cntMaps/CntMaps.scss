@@ -11,7 +11,7 @@
         flex-direction:column;
         align-items:center;
         width:40em;
-        height:30em;
+        height:33em;
         border:0.5px solid black;
         
         }
@@ -25,6 +25,11 @@
         height:20em;
         width:40em;
         border:0.5px solid black;
+
+        .leaflet-container {
+            width: 53.1em;
+            height: 26.5em;
+        }
 
     }
 
