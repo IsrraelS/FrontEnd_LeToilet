@@ -4,27 +4,7 @@ import MapView from '../../components/mapview/MapView'
 import './CntMaps.scss';
 
 export const CntMaps = ()=> {
-    const [state, setState] = useState({
-        latitude: 0,
-        longitude: 0
-    });
-
-    useEffect(() => {
-        navigator.geolocation.getCurrentPosition(
-            function(position) {
-                setState({
-                    latitude: position.coords.latitude,
-                    longitude: position.coords.longitude
-                })
-            },
-            function(error) {
-                console.log(error)
-            },
-            {
-                enableHighAccuracy: true
-            }
-        );
-    });
+    
     return(
         <div className="cntMaps">
             <div className="boxMaps">
@@ -37,13 +17,10 @@ export const CntMaps = ()=> {
                     <MapView></MapView>
                 </div>
                 <div className="footerMps">
-                    <h5>Geolocation</h5>
-                    <p>Latitude: {state.latitude}</p>
-                    <p>Longitude: {state.longitude}</p>
+                    <h5>Register New Toilet</h5>
                     <Link to={{
-                        pathname: '/map',
-                        state 
-                    }}>see my location</Link>
+                        pathname: '/NewToilet',
+                    }}>New Toilet</Link>
                 </div>
             </div>
         </div>
