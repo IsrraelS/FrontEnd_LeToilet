@@ -1,0 +1,193 @@
+.fatherNewToilet{
+    height:50em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+
+        @media (min-width:768px){
+            height: 46em
+        }
+
+        @media (min-width:1024px){
+            height: 60em
+            
+        }
+
+        .cntNewToilet{
+            width: 19em;
+            height: 32em;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            box-shadow: 5px 5px;
+            background: #77A6B6;
+
+            @media (min-width:768px){
+                width: 35em;
+                height: 40em;
+            }
+    
+            @media (min-width:1024px){
+                width: 40em;
+                height: 45em;
+            }
+            
+            .headerNewToilet{
+                display: contents;
+                height: 4em;
+                width: 19em;
+
+                    @media (min-width:768px){
+                        height: 5em;
+                    }
+            
+                    @media (min-width:1024px){
+                        height: 6em;
+                        
+                    }
+
+                    .ttlNT{
+                        font-size: 1.5em;
+                        font-family: 'Bitter', serif;
+                    
+                        @media (min-width:768px){
+                            font-size: 2em;
+                        }
+                
+                        @media (min-width:1024px){
+                            font-size: 3em;
+                        }
+                    }
+
+            }
+
+            .mainNewToilet{
+                height: 20em;
+                width: 11em;
+
+                    @media (min-width:768px){
+                        height: 24em;
+                        width: 18em;
+                    }
+            
+                    @media (min-width:1024px){
+                        height: 35em;
+                        width: 25em;
+                        
+                    }
+
+                    .cntDates{
+                        display: flex;
+                        flex-direction: column;
+                        
+                        background: unset;
+
+
+                        .nameNT{
+                            font-size: 1em;
+
+                           @media (min-width:768px){
+                               font-size: 1.2em;
+                           }
+                   
+                           @media (min-width:1024px){
+                               font-size: 1.5em;
+                               
+                           }
+                        }
+
+                        .impNT {
+                            width: 11em;
+
+                           @media (min-width:768px){
+                               width: 18em;
+                           }
+                   
+                           @media (min-width:1024px){
+                               width: 25em;
+                           }
+
+                        }
+
+                        .Coors{
+                            font-size: 1em;
+
+                           @media (min-width:768px){
+                               font-size: 1.2em;
+                           }
+                   
+                           @media (min-width:1024px){
+                               font-size: 1.5em;
+                               
+                           }
+                        }
+
+                        .impLtt {
+                            width: 11em;
+
+                           @media (min-width:768px){
+                               width: 18em;
+                           }
+                   
+                           @media (min-width:1024px){
+                                width: 25em;
+                           }
+
+                        }
+
+                        .impLng {
+                            width: 11em;
+
+                           @media (min-width:768px){
+                               width: 18em;
+                           }
+                   
+                           @media (min-width:1024px){
+                                width: 25em;
+                           }
+
+                        }
+
+                        .PblcOrCmrcl{
+                            font-size: 1em;
+
+                           @media (min-width:768px){
+                               font-size: 1.2em;
+                           }
+                   
+                           @media (min-width:1024px){
+                               font-size: 1.5em;
+                               
+                           }
+                        }
+
+
+                        .accessibility{
+                            font-size: 1em;
+
+                           @media (min-width:768px){
+                               font-size: 1.2em;
+                           }
+                   
+                           @media (min-width:1024px){
+                               font-size: 1.5em;
+                               
+                           }
+                        }
+
+                   
+                           @media (min-width:1024px){
+                                width: 25em;
+                           }
+
+                        
+                    }
+            }
+
+        }
+}
