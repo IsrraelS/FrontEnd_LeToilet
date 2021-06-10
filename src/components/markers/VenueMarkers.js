@@ -9,6 +9,9 @@ const VenueMarkers = (props) => {
     //desde places se utiliza un metodo map y por cada elemento que recorra retorna un marker
     // el metodo map devuelve un nuevo array de markers
     const {venues} = props;
+
+    console.log('venues', venues);
+
     const markers = venues.map((venue, i) =>(
         <Marker
         // key por que se estan generando diferentes marcadores entonces utilizamos un id unico
@@ -20,8 +23,9 @@ const VenueMarkers = (props) => {
         >
             <MarkerPopUp data={venue}></MarkerPopUp>
         </Marker>
-
+        
     ));
+    
     return <>{markers}</>;
 }
 

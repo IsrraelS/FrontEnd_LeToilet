@@ -12,13 +12,22 @@ const MapView = () => {
     const [state, setState] = useState({
         currentLocation: {lat:' 40.4167', lng:'-3.70325'},
         zoom: 13,
-        data,
+        data: null,
     });
 
     const location = useLocation();
     const history = useHistory()
+
+    useEffect(() => {    
+        fetch('http://localhost:3000/venues')
+            .then(response => response.json())
+            .then(venues => {
+            setState({ data: venues})
+        })
+        console.log('marcadores', data.venues);
+    },[]);
     
-    /*useEffect(() => {
+    /*\useEffect(() => {
         if(location.state.latitude && location.state.longitude) {
             const currentLocation = {
                 lat: location.state.latitude,
@@ -42,6 +51,10 @@ const MapView = () => {
           }
     }, [location]);*/
 
+    if(!state.data){
+        return <div>Loading...</div>
+    }
+
     return (
         //componete Map posiciona el punto de vista primera en el mapa y su proximidad
         <Map 
@@ -55,10 +68,13 @@ const MapView = () => {
             >
             </TileLayer>
             {/* Los marcadores que se muestran vendran de una api Fake por ahora de un archivo data.json */}
+            {state.data.venues && 
+           
             <Markers
                 venues={state.data.venues}//recibe el marker y es capas de generar marcadores
             >
-            </Markers>     
+            </Markers>
+            }     
         </Map>
     );
 };
