@@ -10,7 +10,7 @@ const MapView = () => {
     //en principio usamos el useState para definir el estado inicial del mapa
 
     const [state, setState] = useState({
-        currentLocation: {lat:'52.52437', lng:'13.41053'},
+        currentLocation: {lat:' 40.4167', lng:'-3.70325'},
         zoom: 13,
         data,
     });
